@@ -46,7 +46,7 @@ h2 {
     width: 100%;
 }
  
-input[type="submit"] {
+.inputteal {
     margin-top: 5px;
     padding: 0px 30px 0px 30px;
     background-color: teal;
