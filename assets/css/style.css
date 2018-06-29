@@ -27,16 +27,19 @@ h1 {
 h2 {
     font-family: 'Georgia',Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    line-height: 55px;
+    margin-bottom: 0px;
 }
 
-input {
-    margin: 2px 0px 2px 0px;
-    padding: 5px 10px 5px 10px;
-    margin: 2px 0px 2px 0px;
-    color: inherit;
-    margin-bottom: 10px;
-    border: solid 1px #cccccc;
 
+// specific anchor replacement to match basic portfolio {}
+.cardname > h2 > a {
+    color: white;
+}
+
+// max width to match basic portfolio {}
+.container {
+    max-width: 960px;
 }
 
 .fullwidth {
@@ -69,21 +72,16 @@ p {
     margin-bottom: 10px;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-a:hover {
-    color: red;
-}
-
 
 .navbar {
     padding-top: 0px;
     padding-bottom: 0px;
+    padding-right: calc((100% - 960px)/2);
+    padding-left: calc((100% - 960px)/2);
     border-bottom: 2px solid #dddddd;
 }
+
+
 
 #navlogo {
     display: inline-block;
@@ -109,13 +107,14 @@ a:hover {
     float: left;
     margin-right: 20px;
 }
+ 
 
 .cardplacement {
-    float: left;
-    margin: 15px 40px 15px 0px;
+    margin: 15px 22px 15px 18px;
 }
 
-.card {
+// used card1 to avoid conflict with bootstrap 4 card class {}
+.card1 {
     position: relative;
     width: 300px;
     height: 200px;
@@ -131,10 +130,6 @@ a:hover {
     bottom: 20px;
 }
 
-.cardclear {
-    clear: both;
-}
- 
 
 footer {
     background-color: #666666;
