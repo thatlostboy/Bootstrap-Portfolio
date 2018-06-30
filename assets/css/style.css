@@ -81,8 +81,6 @@ p {
     border-bottom: 2px solid #dddddd;
 }
 
-
-
 #navlogo {
     display: inline-block;
     background-color: teal;
@@ -116,14 +114,14 @@ p {
 // used card1 to avoid conflict with bootstrap 4 card class {}
 .card1 {
     position: relative;
-    width: 300px;
-    height: 200px;
+    width: 90%;
+    height: 90%;
 }
 
 .cardname {
     background-color: teal;
     text-align: center;
-    width: 300px;
+    width: 100%;
     line-height: 55px;
     color: white;
     position: absolute;
