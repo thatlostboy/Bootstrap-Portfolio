@@ -55,6 +55,11 @@ h2 {
     border: 0px;
 }
 
+.displayinline {
+    display: block;
+    width: 150px;
+}
+
 textarea {
     padding: 5px 10px 5px 10px;
     width: 100%;
